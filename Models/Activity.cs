@@ -3,12 +3,13 @@ using System.Collections.Generic;
 
 namespace apAPI
 {
-    public class ActivityProvider
+    public class Activity
     {
         public string ActivityID { get; set; }
 
         public string InveniRAstdID { get; set; }
 
-        public List<string> Json_params { get; set; }
+        public List<Params> Json_params { get; set; }
+
     }
 }
