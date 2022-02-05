@@ -5,7 +5,7 @@ namespace apAPI
 {
     public class Activity
     {
-        public string ActivityID { get; set; }
+        public int ActivityID { get; set; }
 
         public string InveniRAstdID { get; set; }
 

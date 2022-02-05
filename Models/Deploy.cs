@@ -16,9 +16,10 @@ namespace apAPI.Models
         public Deploy(Activity Atividade)
         {
             this.Atividade = Atividade;
+            //Do something
         }
 
-        public string URL() {
+        public string GetURL() {
             if (Atividade == null)
             {
                 return null;

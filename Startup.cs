@@ -46,7 +46,7 @@ namespace apAPI
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name: "Rese@rchIT API");
-
+                //c.RoutePrefix = "swagger";
             });               
 
             app.UseHttpsRedirection();

@@ -5,22 +5,12 @@ using System.Threading.Tasks;
 
 namespace apAPI
 {
-    public class Analytics: BaseAnalytics
-    {       
-        public Analytics(int InveniraStdID, List<QuantAnalytic> QuantAnalytics, List<QualAnalytic> QualAnalytics)
-        {
-            this.InveniraStdID = InveniraStdID;
-            this.QuantAnalytics = QuantAnalytics;
-            this.QualAnalytics = QualAnalytics;
-        }
-
-        public override BaseAnalytics Clone()
-        {
-            return (BaseAnalytics)MemberwiseClone();              
-        }
-
-        public Analytics()
-        {
-        }
+    public class Analytics
+    {
+        public int ActivityId { get; set; }
+        public int InveniraStdID { get; set; }
+        public List<QuantAnalytic> QuantAnalytics { get; set; }
+        public string Studentactivityprofile { get; set; }
+        public string ActitivyHeatMap { get; set; }
     }
 }

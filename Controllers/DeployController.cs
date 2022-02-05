@@ -19,7 +19,7 @@ namespace apAPI.Controllers
         {
             Deploy d = new Deploy(Activity);
 
-            return d.URL();
+            return d.GetURL();
         }
 
     }

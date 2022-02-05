@@ -1,0 +1,117 @@
+{
+  "Config": "https://aps-it.herokuapp.com/Config",
+  "Analytics": [
+    {
+      "ActivityId": "1",
+      "InveniraStdId": "1",
+      "QuantAnalytics": [
+        {
+          "Id": "1",
+          "Name": "Acedeu ao documento com os detalhes da visita de campo",
+          "Value": true
+        },
+        {
+          "Id": "2",
+          "Name": "Anexou fotografias da recolha no campo",
+          "Value": false
+        },
+        {
+          "Id": "3",
+          "Name": "Iniciou o questionário",
+          "Value": false
+        },
+        {
+          "Id": "4",
+          "Name": "Percentagem de respostas efetuadas (%)",
+          "Value": 0.0
+        }
+      ],
+      "StudentActivityProfile": "http://url1/QualAnalytic01/11001",
+      "ActitivyHeatMap": "http://url1/QualAnalytic02/21001"
+    },
+    {
+      "ActivityId": "1",
+      "InveniraStdId": "2",
+      "QuantAnalytics": [
+        {
+          "Id": "1",
+          "Name": "Acedeu ao documento com os detalhes da visita de campo",
+          "Value": true
+        },
+        {
+          "Id": "2",
+          "Name": "Anexou fotografias da recolha no campo",
+          "Value": true
+        },
+        {
+          "Id": "3",
+          "Name": "Iniciou o questionário",
+          "Value": true
+        },
+        {
+          "Id": "4",
+          "Name": "Percentagem de respostas efetuadas (%)",
+          "Value": 50.0
+        }
+      ],
+      "StudentActivityProfile": "http://url1/QualAnalytic01/11002",
+      "ActitivyHeatMap": "http://url1/QualAnalytic02/21002"
+    },
+    {
+      "ActivityId": "2",
+      "InveniraStdId": "3",
+      "QuantAnalytics": [
+        {
+          "Id": "1",
+          "Name": "Acedeu ao documento com os detalhes da visita de campo",
+          "Value": true
+        },
+        {
+          "Id": "2",
+          "Name": "Anexou fotografias da recolha no campo",
+          "Value": true
+        },
+        {
+          "Id": "3",
+          "Name": "Iniciou o questionário",
+          "Value": true
+        },
+        {
+          "Id": "4",
+          "Name": "Percentagem de respostas efetuadas (%)",
+          "Value": 10.0
+        }
+      ],
+      "StudentActivityProfile": "http://url1/QualAnalytic01/11003",
+      "ActitivyHeatMap": "http://url1/QualAnalytic02/21003"
+    },
+    {
+      "ActivityId": "3",
+      "InveniraStdId": "4",
+      "QuantAnalytics": [
+        {
+          "Id": "1",
+          "Name": "Acedeu ao documento com os detalhes da visita de campo",
+          "Value": true
+        },
+        {
+          "Id": "2",
+          "Name": "Anexou fotografias da recolha no campo",
+          "Value": true
+        },
+        {
+          "Id": "3",
+          "Name": "Iniciou o questionário",
+          "Value": true
+        },
+        {
+          "Id": "4",
+          "Name": "Percentagem de respostas efetuadas (%)",
+          "Value": 100.0
+        }
+      ],
+      "StudentActivityProfile": "http://url1/QualAnalytic01/11004",
+      "ActitivyHeatMap": "http://url1/QualAnalytic02/21004"
+    }
+  ]
+}
